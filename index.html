@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <link rel="stylesheet" href="style/css/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel='icon' href='menuFoto/log.jpeg' type='image/x-icon' sizes="200x200"/>
+
+    <title>RECreation</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+        <link rel="stylesheet" href="grid-gallery.css">
+
+  </head>
+
+<body>
+    
+<!----------------------------------------- barra de cima (menu verde) --------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-dark" style= "background: linear-gradient(to right, green, black); font-size: 130%">
+
+<div class="container">
+
+<!---------------------------------------------------- menu (botão curso) ---------------------------------------------------------->
+<div class="logo mb-0"><a href="index.html"><img src="menuFoto/logo.png"></a>
+</div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+<!----------------------------------------------- complemento do menu ---------------------------------------------------------------->
+<div class="collapse navbar-collapse" id=navbarSite>
+
+    <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+ <li class="nav-item">
+        <ul class=" navbar-nav ml-auto">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navdrop">Projetos Sociais</a>
+            
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="http://bikeanjo.org/" target="blank">Bike Anjo</a>
+                <a class="dropdown-item" href="http://www.iavpe.org.br/" target="blank">Instituto Arthur Vinícius</a>
+                <a class="dropdown-item" href="http://www.transformarecife.com.br/#/login" target="blank">Transforma Recife</a>
+                <a class="dropdown-item" href="https://www.facebook.com/novojeito/" target="blank">Novo Jeito</a>
+              </div>
+            </li>      
+        </ul>
+</li>
+        <li class="nav-item">
+     <!---- codigo para o modal: href="#siteModal" data-toggle="modal" data-target="#siteModal"----->
+        <a href="imagens/upload/denuncias.php"class="nav-link" data-toggle="modal" data-target="#modalExemplo">Denúncias</a>
+         <!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content"  >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Aviso!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            Faça seu Login para poder realizar sua denúncia!
+      </div>
+      <div class="modal-footer">
+       <a type="button" class="btn btn-success" href="Login/php/phplogin.php">Ok</a>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="quem somos.html">Quem Somos</a>
+        </li>
+
+  </ul>
+
+  
+
+<!--------------------------------------------------- botao com opcoes abaixo ------------------------------------------------------->        
+<ul class="navbar-nav ml-auto">
+
+    <li class="nav-item dropdown">
+      <li class="nav-item">
+        <a class="nav-link" href="Login/php/phplogin.php">Login</a>
+      </li>
+    </li>
+        
+  </ul>
+  
+</div>
+</div>    
+</nav>
+
+<!-------------------------------------------------- carrossel -------------------------------------------------------------------->
+<div id="carouselSite" class="carousel slide" data-ride="carousel">
+      
+    <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+    </ol>
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+    <a href= "noticia1.html"><img src="noticiasFoto/not1.png" class="d-block w-100"></a>
+
+<div class="carousel-caption d-none d-md-block text-light">
+    <a href="noticia1.html" style="text-decoration:none; color: white"><h1 class="tit1"><b>Compaz Ariano Suassuna promove Colônia de Férias dos Esportes</b></h1>
+    <p class="lead1">Futebol, tênis, vôlei, basquete e brincadeiras populares estão entre as atividades</p>
+    </a>
+</div>      
+
+</div>
+
+<div class="carousel-item">
+
+<a href= "noticia2.html"><img src="noticiasFoto/not2.jpg" class="d-block w-100"></a>
+
+<div class="carousel-caption d-none d-md-block text-light">
+    <a href="noticia2.html" style="text-decoration:none; color: white"><h1 class="tit2" style="color:white"><b>Domingo foi dia de teatro, oficina e natureza no Econúcleo Jaqueira</b></h1>
+    <p class="lead2">Evento tem oficinas de meditação e teatro no Recife</p>
+    </a>
+</div>
+
+</div>
+
+<div class="carousel-item">
+    
+<a href= "noticia3.html"><img src="noticiasFoto/not3.jpg" class="d-block w-100"></a>
+
+<div class="carousel-caption d-none d-md-block text-light">
+    <a href="noticia3.html" style="text-decoration:none; color: white"><h1 class="tit3"><b>Pepeu Gomes e Lil' Jimmy Reed se apresentam em festival gratuito de blues e jazz no Recife</b></h1>
+    <p class="lead3">Evento ocorre neste sábado (17) no Parque Santana, na Zona Norte. Há atrações para crianças.</p>
+    </a>
+</div>
+          
+</div>
+
+</div>
+      
+    <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+
+    <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Avançar</span>
+    </a>
+
+</div>
+
+<!-----------------------------------------------------jubotrom--------------------------------------------------------------------->
+<div class="jumbotron jumbotron-fluid" style="background:white">
+<div class="container">
+<div class="row">
+<div class="col-13">
+
+    <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+        <li class="nav-item">
+            <li><a id="nav-pills-01" data-toggle="pill" href="#nav-item-01"><b>Parques</b></a></li>
+        </li>
+
+        <li class="nav-item">
+            <li><a id="nav-pills-02" data-toggle="pill" href="#nav-item-02"><b>Museus</b></a></li>
+        </li>
+
+        <li class="nav-item">
+            <li><a id="nav-pills-03" data-toggle="pill" href="#nav-item-03"><b>Compaz</b></a></li>
+        </li>
+
+        <li class="nav-item">
+            <li><a id="nav-pills-04" data-toggle="pill" href="#nav-item-04"><b>Teatros</b></a></li>
+        </li>
+    </ul>
+
+<!-------------------------------------------------------- PARQUES ------------------------------------------------------------->
+<div class="tab-content" id="nav-pills-content">
+
+<div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+
+<div class="row">
+
+<div class="col-sm-13" id="fotos">
+
+<div class="btns" style="text-align:center">
+
+    <div class="container">
+    <section class="gallery-block grid-gallery">
+    <div class="row">
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="parque santana.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/santana.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Parque Santana</b></span>
+    </span>
+    </a>
+    </div>
+                      
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="parque apipucos.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/apipucos.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Parque Apipucos</b></span>
+    </span>
+    </a>
+    </div>
+                      
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="parque da macaxeira.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/macaxeira.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Parque da Macaxeira</b></span>
+    </span>
+    </a>
+    </div>
+                      
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="parque 13 de maio.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/13 de maio.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Parque 13 de Maio</b></span>
+    </span>
+    </a>
+    </div>
+                          
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="parque da jaqueira.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/jaqueira.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Parque da Jaqueira</b></span>
+    </span>
+    </a>
+    </div>
+    
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="parque dona lindu.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/donalindu.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Parque Dona Lindu</b></span>
+    </span>
+    </a>
+    </div>
+                      
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="sitio da trindade.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/sitiodatrindade.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Sítio da Trindade</b></span>
+    </span>
+    </a>
+    </div>
+                      
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="parque do caiara.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/caiara.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Parque do Caiara</b></span>
+    </span>
+    </a>
+    </div>
+                      
+    <div class="col-md-6 col-lg-4 item">
+    <a class="lightbox" style="text-decoration:none" href="Jardim do Baobá.html">
+    <img class="img-fluid image scale-on-hover" id="parque" src="menuFoto/baoba.jpg" style="border-radius:10px">
+    <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Jardim do Baobá</b></span>
+    </span>
+    </a>
+    </div>
+    </div>
+    </section>
+    </div>
+    
+
+  </div>
+  </div>         
+  </div>
+  </div>
+
+<!-------------------------------------------------- MUSEUS ------------------------------------------------------------------------>           
+<div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                    
+    <div class="row">
+    
+    <div class="col-sm-13" id="fotos">
+    
+    <div class="btns" style="text-align:center;">
+    
+        <div class="container">
+        <section class="gallery-block grid-gallery">              
+        <div class="row">
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="museuAbolicao.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuAbolicao/1.jpg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu da Abolição</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="museuCais.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuCais/3.jpg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu do Cais</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="museu nuclear.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuNuclear/2.jpg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu Nuclear</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="museuPE.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuPE/1.jpg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu do Estado</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="museuRicardo.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuRicardo/1.jpg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Instituto Ricardo Brennand</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="cincopontas.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuCinco/cincopontas1.jpeg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu das Cinco Pontas</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="aloisiomagalhaes.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuAloisio/mamam3.3.jpg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu Aloísio Magalhães</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="museudotrem.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuTrem/trem1.jpg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu do Trem</b></span>
+            </span>
+            </a>
+            </div>
+        <div class="col-md-6 col-lg-4 item">
+            <a class="lightbox" style="text-decoration:none" href="homem.html">
+            <img class="img-fluid image scale-on-hover" id="parque" src="museuFoto/museuHomem/nordeste1.jpeg" style="border-radius:10px">
+            <span class="description">
+            <span class="description-heading" style="color:green; font-family: arial;"><b>Museu do Homem do Nordeste</b></span>
+            </span>
+            </a>
+            </div>
+            </div>
+        </section>
+            
+        </div>
+        </div>             
+        </div>    
+        </div>
+        </div>
+
+<!------------------------------------------------------ COMPAZ ----------------------------------------------------------------------------->
+<div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                      
+    <div class="row">
+    
+    <div class="col-sm-13" id="fotos">
+    
+    <div class="btns" style="text-align:center">
+        
+        <div class="container">
+        <section class="gallery-block grid-gallery">
+        <div class="row">
+        <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" style="text-decoration:none" href="compaz eduardo campos.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="compazFoto/compazE/cp1.png" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Compaz Eduardo Campos</b></span>
+        </span>
+        </a>
+        </div>
+                    
+    <div class="col-md-6 col-lg-4 item">
+        
+        <a class="lightbox" style="text-decoration:none" href="compaz ariano suassuna.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="compazFoto/compazA/cpc1.jpg" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Compaz Ariano Suassuna</b></span>
+        </span>
+        </a>
+        </div>
+        </div>
+    </section>       
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+<!------------------------------------------------------- TEATROS -------------------------------------------------------------------->
+<div class="tab-pane fade" id="nav-item-04" role="tabpanel">
+                      
+    <div class="row">
+    
+    <div class="col-sm-13" id="fotos">
+    
+    <div class="btns" style="text-align:center">
+         
+        <div class="container">
+        <section class="gallery-block grid-gallery">
+        <div class="row">
+        <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" style="text-decoration:none" href="boavista.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="teatroFoto/imgteatroboavista/boavista1.jpg" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Teatro Boa Vista</b></span>
+        </span>
+        </a>
+        </div>
+    
+    <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" style="text-decoration:none" href="santaisabel.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="teatroFoto/teatrosantaisabel/isabel1.jpg" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Teatro Santa Isabel</b></span>
+        </span>
+        </a>
+        </div>
+    
+    <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" style="text-decoration:none" href="teatroapolo.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="teatroFoto/imgteatroapolo/apolo1.jpg" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Teatro Apolo</b></span>
+        </span>
+        </a>
+        </div>
+                        
+    <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" style="text-decoration:none" href="teatrobarreto.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="teatroFoto/imgteatrobarreto/barreto1.jpg" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Teatro Barreto Júnior</b></span>
+        </span>
+        </a>
+        </div>
+    
+    <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" style="text-decoration:none" href="teatroluiz.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="teatroFoto/imgteatroluiz/luiz1.jpg" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Teatro Luiz Mendonça</b></span>
+        </span>
+        </a>
+        </div>
+    
+    <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" style="text-decoration:none" href="teatrohermilo.html">
+        <img class="img-fluid image scale-on-hover" id="parque" src="teatroFoto/imgteatrohermilo/hermilo1.jpg" style="border-radius:10px">
+        <span class="description">
+        <span class="description-heading" style="color:green; font-family: arial;"><b>Teatro Hermilo Borba Filho</b></span>
+        </span>
+        </div>  
+        </a>                
+    
+    </div>
+    </section>
+    </div>
+    </div>
+    </div>
+    </div>  
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+<!-------------------------------------------------- footer--------------------------------------------------------------->    
+<div class="rodape">
+<footer class="rod">
+    <p class="copyright text-center " color="success"> Copyright &copy; RECreation 2019 - Todos os direitos reservados.</p>
+</footer>
+</div>  
+  
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  
+<!--------------------------popover---------------------------->  
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover() 
+    })
+</script>
+<script>
+    $(document).ready(function(){
+       $("#myModal").modal();
+    });
+    </script>
+</body>
+</html>

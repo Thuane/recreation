@@ -1,0 +1,139 @@
+/*# sourceMappingURL=style.css.map */
+
+.tit1{
+  text-align: left;
+  margin-left: -160px;
+  font-size: 210%;
+}
+
+.lead1{
+  text-align: left;
+  margin-left: -160px;
+  font-size: 120%;
+}
+
+
+.tit2{
+  text-align: left;
+  margin-left: -160px;
+  font-size: 210%;
+}
+
+.lead2{
+  text-align: left;
+  margin-left: -160px;
+  font-size: 120%;
+}
+
+.tit3{
+  text-align: left;
+  margin-left: -160px;
+  font-size: 210%;
+}
+
+.lead3{
+  text-align: left;
+  margin-left: -160px;
+  font-size: 120%;
+}
+
+.social-icons a{
+    color: rgba(255,255,255,0.7);
+
+}
+.social-icons a:last-child{   /* margin do último elemento*/
+    margin-right: 0;
+}
+.social-icons a:hover{
+    color: rgba(255,255,255);
+
+}
+
+#parque{
+ -webkit-filter:grayscale(10%);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#parque:hover{
+  -webkit-filter:grayscale(50%);
+ background: rgba(0, 0, 0, 0.6);
+ box-sizing: border-box;
+}
+
+#fotos{
+  margin-top: 20px;
+}
+
+.btns{
+  margin-left: 18.5px;
+}
+/*-----------------------------------------------botoes do segundo menu ------------------------------------------*/
+ul li a{
+  color: green;
+  padding: 13px;
+}
+
+ul li a:hover{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius:5px;
+}
+
+/*----------------------------------------- posicionamento fotos parque -----------------------------------------*/
+
+.a{
+  border: none;
+  color:#ffffff;
+  padding:10px;
+  margin:10px;
+  font-size:24px;
+  line-height: 24px;
+  border-radius:10px;
+  position: relative;
+  box-sizing:border-box;
+  cursor:pointer;
+  transition:all 400ms ease;
+}
+
+#a1{
+  background: green;
+  transform-style: preserve-3d;
+  max-width: 100%;
+  position: absolute;
+  margin-left: -220px;
+  margin-top: 270px;
+  color:white;
+  border: none;
+  border-radius:10px;
+  font-size:16px;
+  text-align: center; 
+  
+}
+
+#a1:after{
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  background: darkgreen;
+  border-radius: 10px;
+  box-sizing: border-box;
+  content: 'Confira!';
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+#a1:hover{
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
+
+/*---------------------------------------------rodape--------------------------------------------*/
+.rod{
+  width:100%;
+  float: left;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, green, black);
+}

@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <link rel="stylesheet" href="style/css/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel='icon' href='menuFoto/log.jpeg' type='image/x-icon' sizes="200x200"/>
+   
+  </head>
+  <body>
+
+<!--------------------------- barra de cima (menu azul) --------------------------------->
+    
+<nav class="navbar navbar-expand-lg navbar-dark" style= "background: linear-gradient(to right, green, black); font-size: 130%">
+
+    <div class="container">
+      
+<!-------------------------------- menu (botão curso) ----------------------------------->
+      
+          <div class="logo mb-0"><a href="index.html"><img src="menuFoto/logo.png"></a>
+          </div>
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+<!------------------------------ complemento do menu ------------------------------------>
+      
+          <div class="collapse navbar-collapse" id=navbarSite>
+      
+            <ul class="navbar-nav mr-auto">
+      
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+              <ul class=" navbar-nav ml-auto">
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navdrop">Projetos Sociais</a>
+                
+        
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="http://bikeanjo.org/" target="blank">Bike Anjo</a>
+                    <a class="dropdown-item" href="http://www.iavpe.org.br/" target="blank">Instituto Arthur Vinícius</a>
+                    <a class="dropdown-item" href="http://www.transformarecife.com.br/#/login" target="blank">Transforma Recife</a>
+                    <a class="dropdown-item" href="https://www.facebook.com/novojeito/" target="blank">Novo Jeito</a>
+                  </div>
+                </li>
+            </ul>        
+      </li>
+                <li class="nav-item">
+     <!---- codigo para o modal: href="#siteModal" data-toggle="modal" data-target="#siteModal"----->
+        <a href="imagens/upload/denuncias.php"class="nav-link" data-toggle="modal" data-target="#modalExemplo">Denúncias</a>
+         <!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content"  >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Aviso!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            Faça seu Login para poder realizar sua denúncia!
+      </div>
+      <div class="modal-footer">
+       <a type="button" class="btn btn-success" href="Login/php/phplogin.php">Ok</a>
+      </div>
+    </div>
+  </div>
+</div>
+      
+              <li class="nav-item">
+                <a class="nav-link" href="quem somos.html">Quem Somos</a>
+              </li>  
+        </ul>
+        
+<!----------------------------------- botao com opcoes abaixo ------------------------------------------>
+<ul class="navbar-nav ml-auto">
+
+        <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" href="Login/php/phplogin.php">Login</a>
+          </li>
+        </li>
+            
+      </ul>
+      
+    </div>
+    </div>    
+    </nav>
+
+<!--------------------------------------------- carrossel ---------------------------------------------------------------->
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+        <li data-target="#carouselSite" data-slide-to="3"></li>
+        <li data-target="#carouselSite" data-slide-to="4"></li>
+        <li data-target="#carouselSite" data-slide-to="5"></li>
+        <li data-target="#carouselSite" data-slide-to="6"></li>
+      </ol>
+
+    <div class="carousel-inner">
+
+    <div class="carousel-item active">
+
+      <img src="parqueFoto/jaqueira/ja1.jpg" class="d-block w-100">
+        
+    </div>
+
+    <div class="carousel-item">
+
+      <img src="parqueFoto/jaqueira/ja2.jpg" class="d-block w-100">
+
+    </div>
+
+    <div class="carousel-item">
+
+      <img src="parqueFoto/jaqueira/ja3.jpg" class="d-block w-100">
+          
+    </div>
+
+    <div class="carousel-item">
+
+      <img src="parqueFoto/jaqueira/ja5.jpg" class="d-block w-100">
+
+    </div>
+
+    <div class="carousel-item">
+
+      <img src="parqueFoto/jaqueira/ja6.jpg" class="d-block w-100">
+          
+    </div>
+
+    <div class="carousel-item">
+
+        <img src="parqueFoto/jaqueira/ja7.jpg" class="d-block w-100">
+        
+    </div>
+
+    <div class="carousel-item">
+
+        <img src="parqueFoto/jaqueira/ja8.jpg" class="d-block w-100">
+
+    </div>
+
+</div>
+      
+    <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+
+      <span class="carousel-control-prev-icon"></span>
+      <span class="sr-only">Anterior</span>
+
+    </a>
+
+    <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+
+      <span class="carousel-control-next-icon"></span>
+      <span class="sr-only">Avançar</span>
+
+    </a>
+
+</div>
+
+<!---------------------------------------------------- Título Principal ---------------------------------------------------->
+
+    <div class="container">
+
+      <div class="row">
+  
+        <div class="col-12 text-center my-5">
+  
+          <h1 class="display-4" style="font-family:arial">Parque da Jaqueira</h1>
+  
+      </div>
+        
+    </div>
+    
+  </div>
+
+<!-------------------------------------------------------jumbotron------------------------------------------------------------->
+
+<div class="jumbotron jumbotron-fluid" style="background:white; margin-top: -70px" >
+    
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-12">
+
+            <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+              
+            <li class="nav-item">
+                <a class="nav-link-success active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01"><b>O Parque</b></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link-success" id="nav-pills-02" data-toggle="pill" href="#nav-item-02"><b>Atividades</b></a>    
+            </li>
+            
+            </ul>
+
+            <div class="tab-content" id="nav-pills-content">
+
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EOxcuyR8RRc" frameborder="0"
+                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                  </div>
+
+                  <div class="col-sm-6">
+
+                    <p class="paragrafo text-justify">O Parque da Jaqueira fica localizado na Rua do Futuro no Bairro das Graças,
+                     possui cerca de 70.000 m² e é uma área bastante arborizada com diversas espécies. O espaço, inicialmente, era
+                     uma propriedade de um rico comerciante recifense chamado Henrique Martins. No local, funcionava, de fato, um
+                     grande sítio. Foi justamente o dono das terras que, ainda no século 18, ordenou a construção da capela de Nossa
+                     Senhora das Barreiras, que marca o parque. “Ela é uma das joias do barroco mundial. Um dos exemplos do barroco
+                     português pelas obras de artes que possui e pelos artistas que participaram de sua concepção”, explica.
+                     Na década de 1930, de sítio, o lugar virou campo de futebol. Na época, a Jaqueira abrigou um clube de futebol
+                     de carreira curta, que desafiou o trio da ferro da capital. O Pernambuco Tramways, formado por funcionário da
+                     empresa inglesa responsável pelos bondes elétricos, trens e telégrafos do Recife, foi bicampeão invicto em 1936
+                     da Liga Esportiva de Pernambuco, o equivalente ao atual Campeonato Pernambucano – e até hoje, nenhum clube
+                     repetiu o feito. “Era um time muito forte e competitivo. Naquele tempo, não havia a profissionalização. Mas os
+                     jogadores do Pernambuco Tramways ficaram reconhecidos pelo fenômeno do amadorismo marrom, afinal de contas,
+                     eles recebiam salário da empresa e jogavam”, explica Rostand Paraíso, autor do livro Esses Ingleses, um relato
+                     sobre a presença destes estrangeiros no Recife.
+                    Segundo a professora de desenvolvimento urbano da Universidade Federal de Pernambuco (UFPE) Ana Rita Sá Carneiro,
+                    em 1951, o paisagista Burle Marx desenhou e doou um projeto para o entorno da igreja. O espaço ainda era usado
+                    como campo de futebol por outros clubes, como o América. “O resultado nós temos hoje. Burle Marx pensou toda
+                    aquela vegetação, os bancos ao lado da igreja, que funcionam como uma moldura”, explicou a professora.
+                    Quase abandonado, na década de 1970, o local passou a receber a Feira do Comércio e Indústria de Pernambuco,
+                    a Fecin. Tratava-se de uma espécie de parque de diversões popular que ficava montado alguns meses no ano e
+                    reunia pessoas de vários bairros e cidades da Região Metropolitana do Recife. Considerada como um equipamento
+                    voltado ao público, a feira recebeu isenção de impostos em 1970 e exibia o nostálgico tobogã plástico em que
+                    crianças desciam em sacos de ráfia.
+                    Em 1984, na gestão do prefeito Joaquim Francisco, iniciou-se a campanha para transformar o terreno em um
+                    grande parque na cidade. O antigo campo era, então, de propriedade do Instituto Nacional de Seguridade Social
+                    (INSS) e o plano era, ali, construir um residencial popular. No entanto, o terreno foi cedido por meio de
+                    contrato de comodato para a Prefeitura do Recife por 20 anos. Antes do término do acordo, em virtude da Lei
+                    Federal 10.175, o órgão foi obrigado a doar o espaço para o município, em 2001. Atualmente a estrutura do
+                    parque é composta por uma pista de cooper de 1 km, uma academia do Recife, um local para musculação aberto
+                    24 hrs, uma pista de bicicross, 2 playgrounds, ciclovia com 1.100 metros, pista para patinação com 600 metros,
+                    equipamentos para alongamento no entorno do parque,  além do parque possuir um fraldário.
+                        </p>
+
+                  </div>
+
+                </div>
+              
+              </div>
+
+<!---------------------------------------Segundo item (jumbotron)------------------------------------------------------------>
+
+<div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                  
+    <div class="row">
+                    
+        <div class="col-sm-6">
+                          
+            </div>
+
+    <table class="table">
+                        
+        <thead class="thead-dark">
+                          
+            <tr>
+                <th class="cs text-center"scope="col" colspan="6"> Academia Recife - Atividades (Manhã)</th>
+            </tr>
+                      
+        </thead>
+                        
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Horários</th>
+                <th scope="col">Segunda-Feira</th>
+                <th scope="col">Terça-Feira</th>
+                <th scope="col">Quarta-Feira</th>
+                <th scope="col">Quinta-Feira</th>
+                <th scope="col">Sexta-Feira</th>
+            </tr>
+        
+        </thead>
+            <tbody>
+                <tr><td>5:30</td>
+                <td>Localizada</td>
+                <td>Circuito Funcional</td>
+                <td>Localizada</td>
+                <td>Circuito Funcional</td>
+                <td>Combat</td>
+            </tr>  
+                <tr>
+                    <td>6:10</td>
+                    <td>Corrida</td>
+                    <td>GAP</td>
+                    <td>Corrida</td>
+                    <td>GAP</td>
+                    <td>Corrida</td>
+                </tr>
+                    <tr>
+                        <td>6:50</td>
+                        <td>Abdominal</td>
+                        <td>Funcional</td>
+                        <td>Abdominal</td>
+                        <td>Funcional</td>
+                        <td>Abdominal</td>
+                    </tr>
+                    <tr>
+                        <td>7:30</td>
+                        <td>GAP</td>
+                        <td>Funcional</td>
+                        <td>Combat</td>
+                        <td>Funcional</td>
+                        <td>Combat</td>
+                    </tr>
+                    <tr>
+                        <td>8:10</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                    </tr>
+                        <tr>
+                        <td>8:50</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                        <td>Musculação</td>
+                    </tr>
+
+            <table class="table">
+                        
+                <thead class="thead-dark">
+
+                    <tr>
+                        <th class="cs text-center"scope="col" colspan="6">Academia Recife - Atividades (Tarde)</th>
+                    </tr>
+                       
+                    </thead>
+                        
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Horários</th>
+                            <th scope="col">Segunda-Feira</th>
+                            <th scope="col">Terça-Feira</th>
+                            <th scope="col">Quarta-Feira</th>
+                            <th scope="col">Quinta-Feira</th>
+                            <th scope="col">Sexta-Feira</th>
+                        </tr>
+                    </thead> 
+
+                        <tbody>
+                            <tr><td>17:00</td>
+                            <td>Circuito Funcional</td>
+                            <td>Membros Superiores/Musculação</td>
+                            <td>Circuito Funcional</td>
+                            <td>GAP/Musculação</td>
+                            <td>Musculação</td>
+                        </tr>  
+                        <tr>
+                            <td>17:40</td>
+                            <td>Abdominal</td>
+                            <td>GAP/Musculação</td>
+                            <td>Abdominal/Aeróbio/Musculação</td>
+                            <td>Membros Superiores/Musculação</td>
+                            <td>Musculação</td>
+                        </tr>
+                        <tr>
+                            <td>18:20</td>
+                            <td>Dança</td>
+                            <td>Abdominal</td>
+                            <td>GAP</td>
+                            <td>Abdominal/Alongamento</td>
+                            <td>Dança</td>
+                        </tr>
+                        <tr>
+                            <td>19:00</td>
+                            <td>Circuito Funcional</td>
+                            <td>Corrida</td>
+                            <td>Dança</td>
+                            <td>Corrida</td>
+                            <td>Musculação</td>
+                        </tr>
+                        <tr>
+                            <td>19:40</td>
+                            <td>Musculação</td>
+                            <td>Musculação</td>
+                            <td>Musculação</td>
+                            <td>Musculação</td>
+                            <td>Musculação</td>
+                        </tr>
+                        
+                </tbody>
+                
+        </table>     
+        
+            </div>
+    
+                </div>
+              
+
+            
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+    
+      </div>
+
+<!---------------------------------------------------- Localização -------------------------------------------------------->
+<h2 class="loc text-center" style="font-family:arial">Localização:</h2>
+<br>
+
+<div class="iframe-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3230.462683860052!2d-34.90703428585443!3d-8.037077394212682
+!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18ff84b1ad69%3A0xba959d4f90080b74!2sParque+da+Jaqueira!5e1!3m2!1spt-BR
+!2sbr!4v1548377912740" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<!------------------------------------------------------Footer------------------------------------------------------------->
+<footer class="rod">
+<p class="copyright text-center " color="success"> Copyright &copy; RECreation 2019 - Todos os direitos reservados. </p>
+</footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.rod{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    background-color: linear-gradient(to right, green, black);
+}
